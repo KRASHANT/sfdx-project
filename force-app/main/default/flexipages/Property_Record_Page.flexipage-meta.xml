@@ -151,6 +151,13 @@
         </componentInstances>
         <componentInstances>
             <componentInstanceProperties>
+                <name>searchCriteria</name>
+                <value>Price</value>
+            </componentInstanceProperties>
+            <componentName>SimilarProperties</componentName>
+        </componentInstances>
+        <componentInstances>
+            <componentInstanceProperties>
                 <name>latField</name>
                 <value>Location__Latitude__s</value>
             </componentInstanceProperties>
@@ -163,13 +170,6 @@
                 <value>Name</value>
             </componentInstanceProperties>
             <componentName>RecordMap</componentName>
-        </componentInstances>
-        <componentInstances>
-            <componentInstanceProperties>
-                <name>searchCriteria</name>
-                <value>Price</value>
-            </componentInstanceProperties>
-            <componentName>SimilarProperties</componentName>
         </componentInstances>
         <mode>Replace</mode>
         <name>sidebar</name>
