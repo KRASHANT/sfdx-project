@@ -11,7 +11,9 @@ jobs:
     - uses: actions/checkout@v2
     - name: Run a one-line script
       run: echo Hello, world!
+    - name: open scratch org
       run: sfdx force:org:open –u sfdx-chan
+    - name: unit test
       run: sfdx force:apex:test:run --codecoverage --resultformat human --wait 2 –u sfdx-maria
     - name: Run a multi-line script
       run: |
