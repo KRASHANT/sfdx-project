@@ -21,4 +21,4 @@ jobs:
       # - name: sfdx-test-run
       #   run: sfdx force:apex:test:run -l RunLocalTests -w 30
     - name: display scratch org
-      - sfdx force:org:display
+      run: sfdx force:org:display
